@@ -2,7 +2,7 @@
 
 Official implementation of "Crystal-Scaffold: Deterministic Scaffold Compilation for Text-Conditioned CIF Generation".
 
-The repository provides code for data preprocessing, three-stage instruction fine-tuning, crystal structure generation, and Best-of-N inference.
+The repository provides code for three-stage instruction fine-tuning, crystal structure generation, and Best-of-N inference.
 
 ## Environment Setup
 
@@ -61,7 +61,6 @@ Preserve the original dataset splits and row order.
 
 ```text
 Crystal-Scaffold/
-├── preprocess/    # Data preprocessing
 ├── train/         # Three-stage fine-tuning
 ├── inference/         # Crystal structure generation
 ├── HBoN/             # Best-of-N inference
